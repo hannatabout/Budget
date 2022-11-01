@@ -1,0 +1,24 @@
+h3{ 
+    color: white;
+    margin: auto 0px;
+   
+}
+.totale{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: auto 0px;
+    color: white;
+
+}
+.footer{
+    display: flex;
+    background-image: linear-gradient( #8441a4,#6958ff);
+    height: 45px ;
+    width: 230px;
+    margin: 30px auto 30px;
+    border-radius: 20px;
+    column-gap: 8px;
+    justify-content: center;
+    
+ 
+}

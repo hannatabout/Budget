@@ -1,0 +1,64 @@
+.titleheader {
+    display: flex;
+    justify-content:center;
+    border: 3px solid purple;
+    width: 900px;
+    border-radius: 8px;
+    margin:  70px auto;
+}
+
+.date ,.wallet,.budget{
+ 
+    width: 250px;
+    display: flex;
+    align-content: center;
+    border-radius: 10px; 
+    
+    height: 50px;
+
+}
+
+
+input{
+    height: 35px;
+    width: 180px;
+    border: none;
+    border-left:3px solid  purple;
+   
+}
+
+.logo{
+    background-image: url(../images/calendar3.png);
+
+}
+.logo1{
+    background-image: url(../images/shopping3.png);
+}
+.logo2{
+    background-image: url(../images/wallet1.png);
+}
+img{
+    width: 50px;
+    height: 35px;
+ 
+}
+.btn{
+    background-image: url(../images/button1.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+   
+    border: none;
+    background-color: transparent;
+    margin-top: 8px;
+    
+}
+.dt,.wall,.budg {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+button:hover{
+    transform: scale(1.2);
+   
+}
